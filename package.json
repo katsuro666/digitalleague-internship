@@ -1,0 +1,9 @@
+{
+  "scripts":{
+    "style":"npx stylelint '**/*.css'"
+  },
+  "devDependencies":{
+    "stylelint":"^15.2.0",
+    "stylelint-config-standard":"^30.0.1"
+  }
+}

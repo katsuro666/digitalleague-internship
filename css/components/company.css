@@ -8,7 +8,7 @@
 
 .company__heading {
   font-size: 64px;
-  line-height: 70.4px;
+  line-height: 70px;
   font-weight: 600;
   text-transform: uppercase;
   width: 330px;
@@ -28,4 +28,37 @@
 
 .socials__el:last-child {
   margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+  .company__heading {
+    font-size: 48px;
+    line-height: 55px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .company__heading {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .company {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
+
+@media (max-width: 768px) {
+  .company__heading {
+    margin: 50px auto;
+  }
+
+  .company {
+    padding: 30px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
 }

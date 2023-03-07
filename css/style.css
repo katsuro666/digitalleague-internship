@@ -1,10 +1,7 @@
 @import url('./vendors/normalize.css');
-
 @import url('./layouts/gallery.css');
-
 @import url('./components/company.css');
 @import url('./components/content.css');
-
 @import url('./components/block1.css');
 @import url('./components/block2.css');
 @import url('./components/block3.css');

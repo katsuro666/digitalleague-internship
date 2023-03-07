@@ -1,15 +1,9 @@
 .gallery {
   font-family: 'Inter', sans-serif;
-  outline: 3px solid red;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 45% 25% 30%;
-  max-width: 1536px;
   margin: auto;
-}
-
-.blockk {
-  outline: 3px solid blue;
 }
 
 .gallery-img {

@@ -16,8 +16,10 @@
 }
 
 .company__socials {
-  outline: 3px solid gray;
   margin: auto;
+  display: flex;
+  list-style: none;
+  padding: 0;
 }
 
 .socials__el {

@@ -9,191 +9,187 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap"
       rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-
     <title>Company Culture</title>
   </head>
 
   <body>
-    <main>
-      <div class="gallery" >
-        <section class="company">
-          <h1 class="company__heading" tabindex="0">
-            Company
-            <br />
-            culture
-          </h1>
+    <main class="gallery">
+      <section class="company">
+        <h1 class="company__heading">Company culture</h1>
 
-          <ul class="company__socials socials">
-            <li class="socials__el">
-              <a href="#">
-                <img src="./assets/icons/instagram.svg" alt="" />
-              </a>
-            </li>
+        <ul class="company__socials socials">
+          <li class="socials__el">
+            <a href="#">
+              <img src="./assets/icons/instagram.svg" alt="Instagram" />
+            </a>
+          </li>
 
-            <li class="socials__el">
-              <a href="#">
-                <img src="./assets/icons/phone.svg" alt="" />
-              </a>
-            </li>
+          <li class="socials__el">
+            <a href="#">
+              <img src="./assets/icons/phone.svg" alt="Phone" />
+            </a>
+          </li>
 
-            <li class="socials__el">
-              <a href="#">
-                <img src="./assets/icons/mail.svg" alt="" />
-              </a>
-            </li>
-          </ul>
-        </section>
+          <li class="socials__el">
+            <a href="#">
+              <img src="./assets/icons/mail.svg" alt="Email" />
+            </a>
+          </li>
+        </ul>
+      </section>
 
-        <div class="content" tabindex="0">
-          <p class="content__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
-            ultricies aliquam egestas amet mi aliquam. Eu, vel massa elementum
-            nulla.
-          </p>
-        </div>
+      <div class="content">
+        <p class="content__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+          ultricies aliquam egestas amet mi aliquam. Eu, vel massa elementum
+          nulla.
+        </p>
+      </div>
 
-        <div class="img-block-1">
-          <picture>
-            <source
-              type="image/avif"
-              srcset="
-                ./assets/images/avif/girl1.avif    1x,
-                ./assets/images/avif/girl1@2x.avif 2x
-              " />
-            <source
-              type="image/webp"
-              srcset="
-                ./assets/images/webp/girl1.webp    1x,
-                ./assets/images/webp/girl1@2x.webp 2x
-              " />
-            <img
-              src="./assets/images/jpg/girl1.jpg 1x"
-              srcset="./assets/images/jpg/girl1@2x.jpg 2x"
-              alt="Portrait of a girl in a hat among the leaves"
-              tabindex="0"
-              class="gallery-img" />
-          </picture>
-        </div>
+      <div class="girl-in-leaves-img">
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./assets/images/avif/girl1.avif    1x,
+              ./assets/images/avif/girl1@2x.avif 2x
+            " />
+          <source
+            type="image/webp"
+            srcset="
+              ./assets/images/webp/girl1.webp    1x,
+              ./assets/images/webp/girl1@2x.webp 2x
+            " />
+          <img
+            src="./assets/images/jpg/girl1.jpg 1x"
+            srcset="./assets/images/jpg/girl1@2x.jpg 2x"
+            alt="Portrait of a girl in a hat among the leaves"
+            tabindex="0"
+            class="gallery-img" />
+        </picture>
+      </div>
 
-        <div class="img-block-2">
-          <picture>
-            <source
-              type="image/avif"
-              srcset="
-                ./assets/images/avif/coffee.avif    1x,
-                ./assets/images/avif/coffee@2x.avif 2x
-              " />
-            <source
-              type="image/webp"
-              srcset="
-                ./assets/images/webp/coffee.webp    1x,
-                ./assets/images/webp/coffee@2x.webp 2x
-              " />
-            <img
-              src="./assets/images/jpg/coffee.jpg 1x"
-              srcset="./assets/images/jpg/coffee@2x.jpg 2x"
-              alt="A cup of coffee on a beige table. View from above"
-              tabindex="0"
-              class="gallery-img" />
-          </picture>
-        </div>
+      <div class="coffee-cup-img">
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./assets/images/avif/coffee.avif    1x,
+              ./assets/images/avif/coffee@2x.avif 2x
+            " />
+          <source
+            type="image/webp"
+            srcset="
+              ./assets/images/webp/coffee.webp    1x,
+              ./assets/images/webp/coffee@2x.webp 2x
+            " />
+          <img
+            src="./assets/images/jpg/coffee.jpg 1x"
+            srcset="./assets/images/jpg/coffee@2x.jpg 2x"
+            alt="A cup of coffee on a beige table. View from above"
+            tabindex="0"
+            class="gallery-img" />
+        </picture>
+      </div>
 
-        <div class="img-block-3" aria-hidden="true"></div>
+      <div class="beige-block" aria-hidden="true"></div>
 
-        <div class="img-block-4">
-          <picture>
-            <source
-              type="image/avif"
-              srcset="
-                ./assets/images/avif/girl2.avif    1x,
-                ./assets/images/avif/girl2@2x.avif 2x
-              " />
-            <source
-              type="image/webp"
-              srcset="
-                ./assets/images/webp/girl2.webp    1x,
-                ./assets/images/webp/girl2@2x.webp 2x
-              " />
-            <img
-              src="./assets/images/jpg/girl2.jpg 1x"
-              srcset="./assets/images/jpg/girl2@2x.jpg 2x"
-              alt="Portrait of a curly laughing girl"
-              tabindex="0"
-              class="gallery-img" />
-          </picture>
-        </div>
+      <div class="laughing-girl-img">
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./assets/images/avif/girl2.avif    1x,
+              ./assets/images/avif/girl2@2x.avif 2x
+            " />
+          <source
+            type="image/webp"
+            srcset="
+              ./assets/images/webp/girl2.webp    1x,
+              ./assets/images/webp/girl2@2x.webp 2x
+            " />
+          <img
+            src="./assets/images/jpg/girl2.jpg 1x"
+            srcset="./assets/images/jpg/girl2@2x.jpg 2x"
+            alt="Portrait of a curly laughing girl"
+            tabindex="0"
+            class="gallery-img" />
+        </picture>
+      </div>
 
-        <div class="img-block-5">
-          <picture>
-            <source
-              type="image/avif"
-              srcset="
-                ./assets/images/avif/girl3.avif    1x,
-                ./assets/images/avif/girl3@2x.avif 2x
-              " />
-            <source
-              type="image/webp"
-              srcset="
-                ./assets/images/webp/girl3.webp    1x,
-                ./assets/images/webp/girl3@2x.webp 2x
-              " />
-            <img
-              src="./assets/images/jpg/girl3.jpg 1x"
-              srcset="./assets/images/jpg/girl3@2x.jpg 2x"
-              alt="Girl with flowers standing sideways"
-              tabindex="0"
-              class="gallery-img" />
-          </picture>
-        </div>
+      <div class="girl-with-flowers-img">
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./assets/images/avif/girl3.avif    1x,
+              ./assets/images/avif/girl3@2x.avif 2x
+            " />
+          <source
+            type="image/webp"
+            srcset="
+              ./assets/images/webp/girl3.webp    1x,
+              ./assets/images/webp/girl3@2x.webp 2x
+            " />
+          <img
+            src="./assets/images/jpg/girl3.jpg 1x"
+            srcset="./assets/images/jpg/girl3@2x.jpg 2x"
+            alt="Girl with flowers standing sideways"
+            tabindex="0"
+            class="gallery-img" />
+        </picture>
+      </div>
 
-        <div class="img-block-6">
-          <picture>
-            <source
-              type="image/avif"
-              srcset="
-                ./assets/images/avif/door.avif    1x,
-                ./assets/images/avif/door@2x.avif 2x
-              " />
-            <source
-              type="image/webp"
-              srcset="
-                ./assets/images/webp/door.webp    1x,
-                ./assets/images/webp/door@2x.webp 2x
-              " />
-            <img
-              src="./assets/images/jpg/door.jpg 1x"
-              srcset="./assets/images/jpg/door@2x.jpg 2x"
-              alt="Doorway in the room with white doors"
-              tabindex="0"
-              class="gallery-img" />
-          </picture>
-        </div>
+      <div class="doors-img">
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./assets/images/avif/door.avif    1x,
+              ./assets/images/avif/door@2x.avif 2x
+            " />
+          <source
+            type="image/webp"
+            srcset="
+              ./assets/images/webp/door.webp    1x,
+              ./assets/images/webp/door@2x.webp 2x
+            " />
+          <img
+            src="./assets/images/jpg/door.jpg 1x"
+            srcset="./assets/images/jpg/door@2x.jpg 2x"
+            alt="Doorway in the room with white doors"
+            tabindex="0"
+            class="gallery-img" />
+        </picture>
+      </div>
 
-        <div class="img-block-7" aria-hidden="true"></div>
+      <div class="red-block" aria-hidden="true"></div>
 
-        <div class="img-block-8" >
-          <picture>
-            <source
-              type="image/avif"
-              srcset="
-                ./assets/images/avif/man.avif    1x,
-                ./assets/images/avif/man@2x.avif 2x
-              " />
-            <source
-              type="image/webp"
-              srcset="
-                ./assets/images/webp/man.webp    1x,
-                ./assets/images/webp/man@2x.webp 2x
-              " />
-            <img
-              src="./assets/images/jpg/man.jpg 1x"
-              srcset="./assets/images/jpg/man@2x.jpg 2x"
-              alt="Portrait of a man with gesture 'quiet'"
-              tabindex="0"
-              class="gallery-img" />
-          </picture>
-        </div>
+      <div class="man-img">
+        <picture>
+          <source
+            type="image/avif"
+            srcset="
+              ./assets/images/avif/man.avif    1x,
+              ./assets/images/avif/man@2x.avif 2x
+            " />
+          <source
+            type="image/webp"
+            srcset="
+              ./assets/images/webp/man.webp    1x,
+              ./assets/images/webp/man@2x.webp 2x
+            " />
+          <img
+            src="./assets/images/jpg/man.jpg 1x"
+            srcset="./assets/images/jpg/man@2x.jpg 2x"
+            alt="Portrait of a man with gesture 'quiet'"
+            tabindex="0"
+            class="gallery-img" />
+        </picture>
       </div>
     </main>
   </body>

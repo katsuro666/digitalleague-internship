@@ -1,17 +1,17 @@
-.img-block-2 {
+.coffee-cup-img {
   grid-column: 3/4;
   grid-row: 3/4;
 }
 
 @media (max-width: 992px) {
-  .img-block-2 {
+  .coffee-cup-img {
     grid-column: 2/3;
     grid-row: 2/3;
   }
 }
 
 @media (max-width: 768px) {
-  .img-block-2 {
+  .coffee-cup-img {
     grid-column: 1/2;
     grid-row: 4/5;
   }
